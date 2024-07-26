@@ -1,0 +1,50 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.full {
+	width: 50%;
+	max-width: 1000px;
+	min-height: 100px;
+	margin: 0px;
+	display: grid;
+	grid-template-columns: 4fr 2fr;
+}
+.left {
+	position: initial;
+	background-color: skyblue;
+	padding: 20px;
+
+}
+.right {
+	position: initial;
+	background-color: black;
+	color: white;
+	padding: 20px;
+
+}
+.image, .Contact, .Skills, .Language, .certifications, 
+.career-objectives, .Experience, .qualifications {
+	margin-bottom: 30px;
+}
+
+.h2 {
+	background-color: rgb(4, 96, 150);
+}
+table,
+th,
+td {
+        border: 1px solid black;
+        border-collapse: collapse;
+}
+th {
+    text-align: left;
+}
+
